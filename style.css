@@ -1,0 +1,11 @@
+.page-content{
+    display: inline-block;
+    align-items: center;
+}
+#frontimage{
+    width: 600px;
+    height: 710px; 
+}
+.front-content {
+    display: inline-block;
+}
