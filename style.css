@@ -2,10 +2,70 @@
     display: inline-block;
     align-items: center;
 }
-#frontimage{
-    width: 600px;
-    height: 710px; 
-}
 .front-content {
-    display: inline-block;
+    position: relative;
+    background: currentColor;
+    height: 150px;
+    width: 300px;
+    margin: 0 auto;
+    z-index: 50;
+  }
+.front-content:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background: linear-gradient(#fffff0,#ffd5ab);
+    z-index: 50;
+  }
+
+.front-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #fffff0;
+    box-sizing: border-box;
+}
+#frontimage{
+    position: absolute;
+    width: 40%;
+    height: 50%; 
+    left: 0%;
+    bottom: 0%;
+    background-size: contain;
+    z-index: 100;
+}
+#front-text {
+    position: relative;
+    font-size: 200pt;
+    margin-left: 75%;
+    color: #92794f;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150;
+
+}
+.about-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #ffd5ab;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#about-text {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70%;
+    font-size: 100pt;
+    color: #92794f;
 }
