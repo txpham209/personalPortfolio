@@ -2,26 +2,10 @@
     display: inline-block;
     align-items: center;
 }
-.front-content {
-    position: relative;
-    background: currentColor;
-    height: 150px;
-    width: 300px;
-    margin: 0 auto;
-    z-index: 50;
-  }
-.front-content:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 10;
-    background: linear-gradient(#fffff0,#ffd5ab);
-    z-index: 50;
-  }
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
 
 .front-content {
     position: relative;
@@ -29,21 +13,24 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: #fffff0;
+    background: #FAF8F6;
     box-sizing: border-box;
+    margin:  0;
+    padding: 0;
 }
 #frontimage{
     position: absolute;
-    width: 40%;
+    width: 35%;
     height: 50%; 
     left: 0%;
     bottom: 0%;
     background-size: contain;
     z-index: 100;
+
 }
 #front-text {
     position: relative;
-    font-size: 200pt;
+    font-size: 800%;
     margin-left: 75%;
     color: #92794f;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -51,21 +38,42 @@
 
 }
 .about-content {
-    position: relative;
     display: flex;
     align-items: center;
     width: 100%;
-    height: 100vh;
-    background: #ffd5ab;
+    height: 125vh;
+    background: #ffffff;
     box-sizing: border-box;
     overflow: hidden;
+    margin:  0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
 }
 #about-text {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70%;
-    font-size: 100pt;
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    font-size: 500%;
+    margin-left: 35%;
     color: #92794f;
+    font-family:
+}
+#terminal-display {
+    position: relative;
+    width: 35%;
+    height: 70%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 25%;
+    background-color: black;
+    border-radius: 3%;
+    border-color: black;
+}
+#title-bar {
+    width: 100%;
+    height: 3%;
+    background-color: gray;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+
 }
