@@ -20,8 +20,8 @@ html, body {
 }
 #frontimage{
     position: absolute;
-    width: 35%;
-    height: 50%; 
+    width: 50vh;
+    height: 50vh; 
     left: 0%;
     bottom: 0%;
     background-size: contain;
@@ -148,8 +148,8 @@ html, body {
 }
 #aboutimage {
     display: inline-block;
-    width: 40%;
-    height: 50%;
+    width: 60vh;
+    height: 60vh;
     margin-right: 10%;
     margin-top: 10%;
     box-shadow: 10px 10px 5px #e9dcc5;
