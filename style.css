@@ -178,10 +178,27 @@ html, body {
 }
 
 .row {
+    margin: auto;
     display: flex;
   }
   
-  .column {
+.column {
+    width: 50vh;
+    height: 50vh;
     flex: 33.33%;
-    padding: 5px;
+    padding: 10vh;
   }
+
+.wrapper .projects-text {
+    position: absolute;
+    bottom: 42vh;
+    margin-left: 20vh;
+    font-size: 5vh;
+    visibility: hidden;
+}
+.wrapper:hover  .projects-text {
+    visibility: visible;
+}
+.wrapper:hover{
+    opacity: 25%;
+}
