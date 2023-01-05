@@ -2,6 +2,7 @@
     display: inline-block;
     align-items: center;
 }
+
 html, body {
     margin: 0;
     padding: 0;
@@ -155,6 +156,7 @@ html, body {
     box-shadow: 10px 10px 5px #e9dcc5;
 }
 
+
 .project-content {
     position: relative;
     display: flex;
@@ -168,7 +170,6 @@ html, body {
 }
 
 #project-text {
-    display: flex;
     position: absolute;
     width: 60%;
     height: 100%;
@@ -191,23 +192,17 @@ html, body {
 
 .wrapper .projects-header {
     position: absolute;
-    bottom: 42vh;
-    margin-left: 1vh;
-    visibility: hidden;
-}
-.wrapper:hover  .projects-header {
-    visibility: visible;
-}
+    bottom: 65vh;
+    margin-left: 10vh;
+    font-size: 2vh;
+    color: #92794f;
 
-.wrapper .projects-text {
-    position: absolute;
-    bottom: 42vh;
-    margin-left: 1vh;
-    visibility: hidden;
 }
-.wrapper:hover  .projects-text {
-    visibility: visible;
+.projects-description {
+    font-size: 2vh;
+    color: #92794f;
+
 }
-.wrapper:hover{
-    opacity: 25%;
+.project-image {
+    box-shadow: 15px 15px 10px #eee0c9;
 }
