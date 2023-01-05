@@ -183,17 +183,26 @@ html, body {
   }
   
 .column {
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
     flex: 33.33%;
     padding: 10vh;
   }
 
+.wrapper .projects-header {
+    position: absolute;
+    bottom: 42vh;
+    margin-left: 1vh;
+    visibility: hidden;
+}
+.wrapper:hover  .projects-header {
+    visibility: visible;
+}
+
 .wrapper .projects-text {
     position: absolute;
     bottom: 42vh;
-    margin-left: 20vh;
-    font-size: 5vh;
+    margin-left: 1vh;
     visibility: hidden;
 }
 .wrapper:hover  .projects-text {
