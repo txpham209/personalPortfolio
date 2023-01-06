@@ -150,7 +150,7 @@ html, body {
 #aboutimage {
     display: inline-block;
     width: 60vh;
-    height: 60vh;
+    height: 65vh;
     margin-right: 10%;
     margin-top: 10%;
     box-shadow: 10px 10px 5px #e9dcc5;
@@ -159,7 +159,7 @@ html, body {
 
 .project-content {
     position: relative;
-    display: flex;
+    display: table;
     align-items: center;
     width: 100%;
     height: 100vh;
@@ -194,6 +194,7 @@ html, body {
     position: absolute;
     bottom: 65vh;
     margin-left: 10vh;
+    margin-bottom: 15vh;
     font-size: 2vh;
     color: #92794f;
 
@@ -204,5 +205,32 @@ html, body {
 
 }
 .project-image {
+    margin-top: 10vh;
     box-shadow: 15px 15px 10px #eee0c9;
+    
+}
+.linkedin-icon {
+    color: #af936e;
+    transition: color 0.2s;
+    position: absolute;
+    left: 50vh;
+    font-size: 4vh;
+}
+.linkedin-icon :hover {
+    color: #ddb989;
+}
+.github-icon {
+    color: #af936e;;
+    transition: color 0.2s;
+    position: absolute;
+    left: 55vh;
+    font-size: 4vh;
+}
+.github-icon :hover {
+    color: #ddb989;
+}
+.footer-page {
+    height: 5vh;
+    padding: 0%;
+    background-color: #FAF8F6; 
 }
