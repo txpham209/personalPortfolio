@@ -61,8 +61,8 @@ html, body {
 }
 #terminal-display {
     position: relative;
-    width: 50%;
-    height: 70%;
+    width: 50vw;
+    height: 80vh;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10%;
@@ -113,7 +113,7 @@ html, body {
 #terminal-text {
     color: white;
     margin-left: 1%;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .terminal-text-top {
@@ -132,7 +132,7 @@ html, body {
 #terminal-text-contact {
     color: white;
     margin-left: 1%;
-    font-size: 2vw;
+    font-size: 1.5vw;
 
 }
 
@@ -150,10 +150,10 @@ html, body {
 }
 #aboutimage {
     display: inline-block;
-    width: 60vh;
-    height: 65vh;
+    width: 30vw;
+    height: 70vh;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 15%;
     box-shadow: 15px 15px 15px #e9dcc5;
 }
 
