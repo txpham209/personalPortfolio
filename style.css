@@ -182,6 +182,9 @@ html, body {
 .row {
     margin: auto;
     display: inline-flex;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    text-align: center;
 
   }
   
@@ -193,14 +196,12 @@ html, body {
   }
 
 .wrapper .projects-header {
-    width: 23%;
+    width: 20vw;
     position: absolute;
     bottom: 65vh;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
     font-size: 3vh;
     color: #92794f;
-    text-align: center;
-    
 
 }
 .projects-description {
