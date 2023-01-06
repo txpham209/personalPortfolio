@@ -88,7 +88,7 @@ html, body {
     width: 2vh;
     height: 2vh;
     margin-left: 1vw;
-    top: 40%;
+    top: 1vh;
     background-color: #FF605C;
     border-radius: 50%;
 }
@@ -97,7 +97,7 @@ html, body {
     width: 2vh;
     height: 2vh;
     margin-left: 0.5vw;
-    top: 40%;
+    top: 1vh;
     background-color: #FFBD44;
     border-radius: 50%;
 }
@@ -106,7 +106,7 @@ html, body {
     width: 2vh;
     height: 2vh;
     margin-left: 0.5vw;
-    top: 40%;
+    top: 1vh;
     background-color: #00CA4E;
     border-radius: 50%;
 }
