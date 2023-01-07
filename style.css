@@ -196,12 +196,10 @@ html, body {
   }
 
 .wrapper .projects-header {
-    width: 20vw;
-    position: absolute;
-    bottom: 65vh;
-    margin-bottom: 5vh;
     font-size: 3vh;
     color: #92794f;
+    margin: 0%;
+    margin-top: 5vh;
 
 }
 .projects-description {
@@ -210,7 +208,6 @@ html, body {
 
 }
 .project-image {
-    margin-top: 10vh;
     box-shadow: 15px 15px 10px #eee0c9;
     
 }
@@ -240,4 +237,102 @@ html, body {
     padding: 0%;
     background-color: #FAF8F6; 
     text-align: center;
+}
+
+@media (max-width: 550px)
+{
+    .row, .about-content
+    {
+        display: block;
+    }
+    .front-content {
+        width: 80%;
+    }
+    .project-content {
+        width: 80%;
+    }
+    .about-content {
+        width: 80%;
+        height: 60vh;
+        background: #ffffff;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin:  0, 0, 0, 0;
+        padding: 0, 0, 0, 0;
+    }
+
+    #terminal-display {
+        width: 80%;
+        height: 40%;
+        margin: 0 auto;
+        margin-top: 10vh;
+        background-color: black;
+        box-shadow: 5px 5px 20px #6f6092;
+        border-radius: 2vh;
+    
+        border-color: black;
+    }
+
+    #title-bar {
+        border-top-right-radius: 70vh 70vh;
+        border-top-left-radius: 70vh 70vh;
+        display: flex;
+        width: 100%;
+        height: 1.5vh;
+        background-color: gray;
+        box-shadow: 10px 0px 20px #6f6092;
+    
+    }
+    #red-circle {
+        position: relative;
+        width: 1vh;
+        height: 1vh;
+        margin-left: 1.5vw;
+        top: 0.25vh;
+        background-color: #FF605C;
+        border-radius: 50%;
+    }
+    #yellow-circle {
+        position: relative;
+        width: 1vh;
+        height: 1vh;
+        margin-left: 0.5vw;
+        top: 0.25vh;
+        background-color: #FFBD44;
+        border-radius: 50%;
+    }
+    #green-circle {
+        position: relative;
+        width: 1vh;
+        height: 1vh;
+        margin-left: 0.5vw;
+        top: 0.25vh;        
+        background-color: #00CA4E;
+        border-radius: 50%;
+    }
+    #terminal-text {
+        color: white;
+        margin-left: 0.5%;
+        font-size: 2.5vw;
+    }
+    
+    #terminal-text-contact {
+        color: white;
+        margin-left: 0.5%;
+        font-size: 2.5vw;
+    
+    }
+    #aboutimage {
+        display: block;
+        margin: 0% auto;
+        box-shadow: 15px 15px 15px #e9dcc5;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+    .footer-page {
+        height: vh;
+        padding: 20%;
+        background-color: #FAF8F6; 
+        text-align: center;
+    }
 }
