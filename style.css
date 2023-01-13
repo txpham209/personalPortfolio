@@ -180,10 +180,11 @@ html, body {
 }
 
 .row {
+    width: 100%;
     margin: auto;
     display: inline-flex;
-    margin-top: 10vh;
-    margin-left: 5vw;
+    justify-content: center;
+    margin-top: 5vh;
     text-align: center;
 
   }
@@ -269,7 +270,6 @@ html, body {
         background-color: black;
         box-shadow: 5px 5px 20px #6f6092;
         border-radius: 2vh;
-    
         border-color: black;
     }
 
@@ -327,7 +327,7 @@ html, body {
         margin: 0% auto;
         box-shadow: 15px 15px 15px #e9dcc5;
         height: 20vh;
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
     .footer-page {
         height: vh;
